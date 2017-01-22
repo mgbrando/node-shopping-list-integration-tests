@@ -1,10 +1,9 @@
 language: node_js
 node_js: node
 deploy:
-  app: frozen-savannah-16850
   provider: heroku
   api_key:
     secure: UX7SfbuD9FVgmJU4eRu4rLY+2DTYSgPi3KtGb0YzoBlLNPxzVDR9k9liDJzWzXwVxvg3ozMjwhqPgD13HUc3hWApCgRHVE65kI5BKpqAyxV/3vHTFY7wFsgVhjdGAcIOIYYDfjZUeEHURe0UoM2yJ143t8bzySfkRXQNJ8q5/b5TR6mnEINScoF6LpVYzm1a2Ep8NTBgRVSTb8GIHUEwwLaOMZCh0r2ZSJCEgL6S0BlPnbQaY1xgCtTtgNWAw+oZxLKs7ODWgcV9TDgES2BNLVRlNlI/m+/3ttXffl6RFPDe+XpNw6Y+t0/w8AKj7aDSA+M7uEFmf9RTxAt0rCKkUfAMJjEWTo+B5SDhFmtRQcUwlgJEhBrxseRC8Rgg+ZRJRLiNW9e7PcIFHJFdYu03/M3Ms3lJ79j8iMi3zau56014hKs5SZyvNhDTjUTMXjg29f5HolnDVMadbO3cA+PHT0cUfRgZ7fx7EuOvlVq9fZ3Lmda5l/R5WSpaqmIJ4t2uVPbFbur6v0UajaGzFnsxqVaAqQALNoFU7FlA9SYHbCtRqAMQfycy4stL4NTo/MRuScYZz9JtkSjS0F1MW40lH1ecZnQMEPzAAWKc/VHjGMsEzZV2uxMiMD/gEKAqcF1N91nO6OsX721th3l6uzoMEwfPHnKMWsaC6U7yklBQXTg=
-  app: node-shopping-list-integration-tests
+  app: frozen-savannah-16850
   on:
     repo: mgbrando/node-shopping-list-integration-tests
